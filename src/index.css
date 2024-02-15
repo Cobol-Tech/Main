@@ -60,6 +60,18 @@ span {
   background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
 }
 
+/* .bgGrid {
+  background-size: 40px 40px;
+  background-image:
+    radial-gradient(black,
+      black,
+      white, white, white, white,
+      white, white, white, white,
+      white, white, white, white,
+      white, white, white,
+      white)
+} */
+
 /* 
 a {
   font-weight: 500;
