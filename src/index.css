@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.text-stroke-1 {
+  --tw-text-opacity: 1;
+  -webkit-text-stroke: 1px rgb(30 41 59 / var(--tw-text-opacity));
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -50,6 +55,12 @@ h3,
   /* font-weight: 200; */
 }
 
+p,
+ul,
+li {
+  font-size: 0.875rem;
+}
+
 span {
   font-family: inherit;
   font-weight: inherit;
@@ -59,6 +70,18 @@ span {
   background-size: 40px 40px;
   background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
 }
+
+/* .bgGrid {
+  background-size: 40px 40px;
+  background-image:
+    radial-gradient(black,
+      black,
+      white, white, white, white,
+      white, white, white, white,
+      white, white, white, white,
+      white, white, white,
+      white)
+} */
 
 /* 
 a {
